@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PricingConvert from '../pricing/PricingConvert';
 
 const ToggleSwitch = () => {
   const [isAnnual, setIsAnnual] = useState(false);
@@ -25,9 +24,6 @@ const ToggleSwitch = () => {
         <span className="ml-2 text-sm text-black">
           Annual <span className="text-gray-500">(save 20%)</span>
         </span>
-      </div>
-      <div>
-        <PricingConvert />
       </div>
     </div>
   );
