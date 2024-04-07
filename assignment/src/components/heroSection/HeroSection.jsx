@@ -15,7 +15,7 @@ import textimg2 from '../../assets/textimg2.png';
 const HeroSection = () => {
     return (
         <div className="w-full">
-            <div className="w-full bg-gradient-to-b from-white to-[#ffeacd] h-[140vh]">
+            <div className="w-full bg-gradient-to-b from-white to-[#ffeacd] h-[200vh]">
                 <div className="flex flex-col text-center justify-center">
                     <h1 className="text-5xl md:text-6xl font-bold !leading-[1.1] font-body mt-14">
                         <span className="block whitespace-nowrap">

@@ -29,7 +29,9 @@ const Pricing = () => {
             </p>
           </div>
         </div>
-        <ToggleSwitch />
+        <div className="flex justify-center">
+          <ToggleSwitch />
+        </div>
       </div>
       <PricingCard />
     </div>
